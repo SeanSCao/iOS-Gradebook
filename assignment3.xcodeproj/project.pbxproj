@@ -16,6 +16,12 @@
 		14689B502358DF52006E9CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14689B4F2358DF52006E9CCA /* main.m */; };
 		14689B5A2358DF52006E9CCA /* assignment3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14689B592358DF52006E9CCA /* assignment3Tests.m */; };
 		14689B652358DF52006E9CCA /* assignment3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14689B642358DF52006E9CCA /* assignment3UITests.m */; };
+		14689BB823590CDE006E9CCA /* NewStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14689BB723590CDE006E9CCA /* NewStudentViewController.m */; };
+		14689BBB23590CF0006E9CCA /* DisplayInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14689BBA23590CF0006E9CCA /* DisplayInfoViewController.m */; };
+		14689BC3235A4B93006E9CCA /* StudentInfoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 14689BC2235A4B93006E9CCA /* StudentInfoClass.m */; };
+		14689BC5235A9576006E9CCA /* smudge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14689BC4235A9576006E9CCA /* smudge.jpg */; };
+		14689BC7235AB641006E9CCA /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14689BC6235AB640006E9CCA /* dog.jpg */; };
+		14689BCB235AB86E006E9CCA /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14689BCA235AB86E006E9CCA /* iTunesArtwork@1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,15 @@
 		14689B602358DF52006E9CCA /* assignment3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14689B642358DF52006E9CCA /* assignment3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assignment3UITests.m; sourceTree = "<group>"; };
 		14689B662358DF52006E9CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14689BB623590CDE006E9CCA /* NewStudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewStudentViewController.h; sourceTree = "<group>"; };
+		14689BB723590CDE006E9CCA /* NewStudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewStudentViewController.m; sourceTree = "<group>"; };
+		14689BB923590CF0006E9CCA /* DisplayInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayInfoViewController.h; sourceTree = "<group>"; };
+		14689BBA23590CF0006E9CCA /* DisplayInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayInfoViewController.m; sourceTree = "<group>"; };
+		14689BC1235A4B36006E9CCA /* StudentInfoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentInfoClass.h; sourceTree = "<group>"; };
+		14689BC2235A4B93006E9CCA /* StudentInfoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentInfoClass.m; sourceTree = "<group>"; };
+		14689BC4235A9576006E9CCA /* smudge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smudge.jpg; sourceTree = "<group>"; };
+		14689BC6235AB640006E9CCA /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		14689BCA235AB86E006E9CCA /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@1x.png"; path = "images.xcassets/iTunesArtwork@1x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +126,18 @@
 				14689B432358DF51006E9CCA /* ViewController.h */,
 				14689B442358DF51006E9CCA /* ViewController.m */,
 				14689B462358DF51006E9CCA /* Main.storyboard */,
+				14689BB623590CDE006E9CCA /* NewStudentViewController.h */,
+				14689BB723590CDE006E9CCA /* NewStudentViewController.m */,
+				14689BB923590CF0006E9CCA /* DisplayInfoViewController.h */,
+				14689BC1235A4B36006E9CCA /* StudentInfoClass.h */,
+				14689BC6235AB640006E9CCA /* dog.jpg */,
+				14689BC2235A4B93006E9CCA /* StudentInfoClass.m */,
+				14689BBA23590CF0006E9CCA /* DisplayInfoViewController.m */,
 				14689B492358DF52006E9CCA /* Assets.xcassets */,
+				14689BC4235A9576006E9CCA /* smudge.jpg */,
 				14689B4B2358DF52006E9CCA /* LaunchScreen.storyboard */,
 				14689B4E2358DF52006E9CCA /* Info.plist */,
+				14689BCA235AB86E006E9CCA /* iTunesArtwork@1x.png */,
 				14689B4F2358DF52006E9CCA /* main.m */,
 			);
 			path = assignment3;
@@ -241,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				14689B4D2358DF52006E9CCA /* LaunchScreen.storyboard in Resources */,
+				14689BC7235AB641006E9CCA /* dog.jpg in Resources */,
 				14689B4A2358DF52006E9CCA /* Assets.xcassets in Resources */,
+				14689BC5235A9576006E9CCA /* smudge.jpg in Resources */,
+				14689BCB235AB86E006E9CCA /* iTunesArtwork@1x.png in Resources */,
 				14689B482358DF51006E9CCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				14689B452358DF51006E9CCA /* ViewController.m in Sources */,
+				14689BBB23590CF0006E9CCA /* DisplayInfoViewController.m in Sources */,
 				14689B3F2358DF51006E9CCA /* AppDelegate.m in Sources */,
 				14689B502358DF52006E9CCA /* main.m in Sources */,
 				14689B422358DF51006E9CCA /* SceneDelegate.m in Sources */,
+				14689BC3235A4B93006E9CCA /* StudentInfoClass.m in Sources */,
+				14689BB823590CDE006E9CCA /* NewStudentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
